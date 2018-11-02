@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 
 const developers = ["503701305764872212"]
-const adminprefix = "وخلو بالكو عشان الساحة اللي فرحانين بيها هبلعكو بيها !!";
+const adminprefix = "iam alive :)";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -44,7 +44,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 });
 
 client.on('guildMemberAdd', member => {
-const Kahrba = member.guild.channels.get("503701305764872212");//ايدي الشات
+const Kahrba = member.guild.channels.get("497896363757928459");//ايدي الشات
 if(!Kahrba) return;
 if(Kahrba) {
 Kahrba.send(`**Welcome To overHype :heart: :revolving_hearts: **`);          
